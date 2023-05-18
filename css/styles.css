@@ -1,0 +1,39 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f7fa;
+}
+
+.wrapper-studio {
+  height: 2349px;
+  width: 1600px;
+  left: 3444px;
+  top: -2513px;
+  border-radius: 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-portfolio {
+  height: 1880px;
+  width: 1600px;
+  left: 5252px;
+  top: -2513px;
+  border-radius: 0px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+links > {
+}
+
+.menu-nav {
+}
+
+.top-linemenu {
+}
