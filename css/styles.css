@@ -1,6 +1,6 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  background: #f5f7fa;
+  font-family: font-family: 'Roboto', sans-serif;
+  
 }
 
 
@@ -27,9 +27,23 @@ body {
     color: var(--light-color);
   }
 
-.text {
-  color: grey;
-  font-size: small; 
+
+.title-text-paragraph {
+    /* Feature 1 */
+color:#2F303A ;
+font-size: small; 
+text-transform: uppercase;
+
+}
+
+.text-paragraph {
+    /* Feature 1 */
+color: grey;
+font-size: small; 
+width: 270px;
+height: 101px;
+left: 215px;
+top: 774px;
 }
 
 .ul-list-style {
@@ -69,19 +83,21 @@ list-style-type: none
 }
 
 .logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  
-  letter-spacing: 0.03em;
+
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+font-family: Oleo Script;
+font-size: 26px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+
 }
 
 .web-studio1 {
@@ -149,24 +165,22 @@ letter-spacing: 0.03em;
 
 
 .web-studio-link23 {
-  color: #000000;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+color: #000000;
+width: 145px;
+weight: 31px;
+left: 215px;
+top: 24px;
   
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  
-  letter-spacing: 0.03em;
-  }
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+ }
 
-.menu-nav {
-  width: 254px;
+.menu-nav { width: 254px;
   height: 16px;
   left: 453px;
   top: 32px;
@@ -251,3 +265,54 @@ top: 430px;
     background-color: #E7E7E7;
     cursor: pointer;
   }
+
+.footer {
+  /* Footer bg */
+
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
+
+.text-footer {
+  /* m. Warszawa, Aleje Jerozolimskie 21 */
+
+width: 246px;
+height: 21px;
+left: 215px;
+top: 2208px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.links-footer {
+/* +48 111 111 111 */
+
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2268px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
