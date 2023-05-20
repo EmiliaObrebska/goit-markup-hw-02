@@ -3,55 +3,47 @@ body {
   background: #f5f7fa;
 }
 
-.wrapper-studio {
-  height: 2349px;
-  width: 1600px;
-  left: 3444px;
-  top: -2513px;
-  border-radius: 0px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 auto;
-  background: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper-portfolio {
-  height: 1880px;
-  width: 1600px;
-  left: 5252px;
-  top: -2513px;
-  border-radius: 0px;
-  margin: 0 auto;
-  background: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-}
 
 :root {
-    --dark-color: DarkSlateGray;
-    --main-color: DarkOrange;
-    --main-color-2: DarkViolet;
-    --light-color: Gainsboro;
+    --dark-color: #2F303A;
+    --main-color: #2196f3;
+    --main-color-2: #757575
+    --light-color-background: #E5E5E5;
+    --light-color-background2: #F5F4FA
   }
-  .paragraph-1{
+  .section-1{
     color: var(--dark-color);
   }
-  .paragraph-2{
+  .section-2{
     color: var(--main-color);
   }
-  .paragraph-3{
+  .section-3{
     color: var(--main-color-2);
   }
-  .paragraph-4{
+  .section-4{
+    color: var(--light-color);
+  }
+  .section-5{
     color: var(--light-color);
   }
 
-.ul-list-style {
-list-style-type: none
+.text {
+  color: grey;
+  font-size: small; 
 }
 
+.ul-list-style {
+list-style-type: none
+
+
+}
+
+.list-style {
+  display:flex;
+  align-items:baseline; 
+  justify-content:space-between;
+  
+  }
 
 .links-style {
   color:#2196F3
@@ -67,6 +59,13 @@ list-style-type: none
   top: 0px;
 
   background: #ffffff;
+}
+
+.top-line-nav {
+  font-size: small;
+  display:flex;  
+  align-items:baseline; 
+  justify-content:space-between;
 }
 
 .logo {
@@ -138,6 +137,11 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
+
+display:flex;  
+align-items:baseline; 
+justify-content:space-between
+
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -160,6 +164,7 @@ letter-spacing: 0.03em;
   
   letter-spacing: 0.03em;
   }
+
 .menu-nav {
   width: 254px;
   height: 16px;
@@ -171,18 +176,48 @@ letter-spacing: 0.03em;
 
 
 
+.main {
+  /* Header */
 
+background-color: #2F303A;
 
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+}
 
+.main-text {
+/* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
 
+text-align: center;
+align-items:center
+letter-spacing: 0.06em;
+text-transform: uppercase;
 
-.buttons {
+color: #FFFFFF;
 
 }
 
 
+.button-main {
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+}
 
 .button-studio {
     background: #2196f3;
