@@ -48,7 +48,7 @@ list-style-type: none;
 
 .links-style {
   color:#2196F3
-  text-decoration: none;
+ text-decoration: none;
   }
 
 .top-line {
@@ -70,7 +70,6 @@ list-style-type: none;
 
 .logo {
 
-font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
@@ -81,8 +80,6 @@ text-align: left;
 .web-studio1 {
   /* WebStudio */
 
-  
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -90,6 +87,8 @@ text-align: left;
   /* identical to box height */
 
   letter-spacing: 0.03em;
+  text-decoration: none;
+  
 
   color: #2196f3;
 }
@@ -97,19 +96,20 @@ text-align: left;
 .web-studio2 {
   /* WebStudio */
 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 
- 
-  /* identical to box height */
 
   letter-spacing: 0.03em;
+  text-decoration: none;
 
   color:#000000;
 }
 
 
 .web-studio-link1 {
-
-
 
 font-family: 'Roboto';
 font-style: normal;
@@ -121,6 +121,7 @@ letter-spacing: 0.02em;
 color: #2196F3;
 
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-decoration: none;
 }
 
 
@@ -139,6 +140,7 @@ letter-spacing: 0.02em;
 color: #212121;
 
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-decoration: none;
  }
 
  .menu-nav-mail {
@@ -151,6 +153,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+text-decoration: none;
 
 color: #2196F3;
  }
@@ -165,11 +168,13 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+text-decoration: none;
 
 color: #757575;
  }
 
-.menu-nav { width: 254px;
+.menu-nav { 
+   width: 254px;
   height: 16px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -253,20 +258,11 @@ cursor: pointer;
 
 .footer {
   /* Footer bg */
-
-width: 1600px;
-height: 252px;
- 
-
 background: #2F303A;
 }
 
 .text-footer {
   /* m. Warszawa, Aleje Jerozolimskie 21 */
-
-width: 246px;
-height: 21px;
-
 
 font-family: 'Roboto';
 font-style: normal;
@@ -282,9 +278,6 @@ color: #FFFFFF;
 
 .links-footer {
 /* +48 111 111 111 */
-
-width: 231px;
-height: 21px;
 
 
 font-family: 'Roboto';
