@@ -18,21 +18,7 @@ border-radius: 0px;
     --light-color-background: #E5E5E5;
     --light-color-background2: #F5F4FA
   }
-  .section-1{
-    color: var(--dark-color);
-  }
-  .section-2{
-    color: var(--main-color);
-  }
-  .section-3{
-    color: var(--main-color-2);
-  }
-  .section-4{
-    color: var(--light-color);
-  }
-  .section-5{
-    color: var(--light-color);
-  }
+
 
 
 .title-text-paragraph {
@@ -281,12 +267,12 @@ color: #FFFFFF;
 
 }
 
-
 .button-main {
 width: 200px;
 height: 50px;
 left: 700px;
 top: 430px;
+
 }
 
 .button-studio {
@@ -321,6 +307,7 @@ top: 430px;
     background-color: #E7E7E7;
     cursor: pointer;
   }
+
 
 .footer {
   /* Footer bg */
