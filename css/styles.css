@@ -2,11 +2,26 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: #2a2a2a;
-
-
-width: 1600px;
-
 }
+
+.container-main-page {
+  height: 2349px;
+  width: 1600px;
+  left: 3701px;
+  top: -3862px;
+  border-radius: 0px;
+  margin: auto;
+  padding: 15px;
+}
+
+.container-portfolio {
+height: 1880px;
+width: 1600px;
+left: 5628px;
+top: -3628px;
+border-radius: 0px;
+}
+
 
 
 :root {
@@ -52,11 +67,10 @@ list-style-type: none;
 
 .top-line {
   /* top line bg */
-
   width: 1600px;
   height: 80px;
- 
-
+  left: calc(50% - 1600px/2);
+  top: 0px;
   background: #ffffff;
 }
 
@@ -68,7 +82,6 @@ list-style-type: none;
 }
 
 .logo {
-
 font-size: 26px;
 font-weight: 700;
 line-height: 31px;
@@ -79,47 +92,36 @@ text-decoration: none;
 
 .web-studio1 {
   /* WebStudio */
-
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
   text-decoration: none;
-  
-
   color: #2196f3;
 }
 
 .web-studio2 {
   /* WebStudio */
-
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-
-
   letter-spacing: 0.03em;
   text-decoration: none;
- 
   color:#000000;
 }
 
 
 .web-studio-link1 {
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 1000;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 color: #2196F3;
-
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 text-decoration: none;
 }
@@ -128,25 +130,19 @@ text-decoration: none;
 .web-studio-link23 {
 width: 51px;
 height: 16px;
-
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 1000;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 color: #212121;
-
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 text-decoration: none;
  }
 
  .menu-nav-mail {
   /* info@devstudio.com */
-
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -160,8 +156,6 @@ color: #2196F3;
 
  .menu-nav-phone {
   /* +48 111 111 111 */
-
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -176,50 +170,53 @@ color: #757575;
 .menu-nav { 
    width: 254px;
   height: 16px;
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-
-
 .main {
   /* Header */
-
 background-color: #2F303A;
-
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
 }
 
 .main-text {
 /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
-
-font-family: Roboto;
-font-size: 44px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0.06em;
-text-align: center;
-
-
+position: absolute;
+width: 696px;
+height: 120px;
+left: calc(50% - 696px/2);
+top: 280px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
 /* or 136% */
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
 color: #FFFFFF;
+}
 
+.portfolio {
+  height: 1360px;
+  width: 1170px;
+  left: 215px;
+  top: 174px;
+  border-radius: [object Object]px;
 }
 
 .button-main {
+/* Button */
+position: absolute;
 width: 200px;
 height: 50px;
-
-
+left: 700px;
+top: 430px;
+position: relative;
 }
 
 .button-studio {
@@ -239,6 +236,14 @@ letter-spacing: 0.06em;
 padding: 10px 41px 10px 41px;
   }
 
+.buttons-portfolio {
+  /* Button */
+  width: 572px;
+  height: 54px;
+  left: 510px;
+  top: 174px;
+}
+
 .button-self-item:hover {
 background-color: #2196F3;
 color: rgb(236, 238, 240);
@@ -256,8 +261,12 @@ cursor: pointer;
 }
 
 .ul-list-flex {
-  display: flex;
-  list-style: none;
+display: flex;
+list-style: none;
+}
+
+.flex-nav {
+display: flex;
 }
 
 .flex-container {
@@ -265,39 +274,36 @@ justify-content:space-around;
 }
 
 .flex-container-portfolio-buttons {
-  justify-content:center;
-  gap:2px;
-  }
+justify-content:center;
+}
 
 .flex-container-portfolio {
-  justify-content:center;
-  gap: 25px;
-  }
+justify-content:center;
+gap: 25px;
+}
 
 .footer {
   /* Footer bg */
 background: #2F303A;
+width: 1600px;
+height: 252px;
+margin: 0px;
 }
 
 .text-footer {
   /* m. Warszawa, Aleje Jerozolimskie 21 */
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
-
 letter-spacing: 0.03em;
-
 color: #FFFFFF;
 }
 
 .links-footer {
 /* +48 111 111 111 */
-
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -305,8 +311,6 @@ font-size: 14px;
 line-height: 24px;
 text-decoration: none;
 /* or 171% */
-
 letter-spacing: 0.03em;
-
 color: rgba(255, 255, 255, 0.6);
 }
