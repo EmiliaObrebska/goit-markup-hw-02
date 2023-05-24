@@ -17,8 +17,6 @@ width: 1600px;
     --light-color-background2: #F5F4FA;
   }
 
-
-
 .title-text-paragraph {
     /* Feature 1 */
 color:#2F303A ;
@@ -257,6 +255,24 @@ background-color: #E7E7E7;
 cursor: pointer;
 }
 
+.ul-list-flex {
+  display: flex;
+  list-style: none;
+}
+
+.flex-container {
+justify-content:space-around;
+}
+
+.flex-container-portfolio-buttons {
+  justify-content:center;
+  gap:2px;
+  }
+
+.flex-container-portfolio {
+  justify-content:center;
+  gap: 25px;
+  }
 
 .footer {
   /* Footer bg */
