@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: var(--dark-color);
+background: #FFFFFF;
 }
 
 .container-main-page {
@@ -12,6 +13,7 @@ body {
   border-radius: 0px;
   margin: auto;
   padding: 15px;
+  background: #FFFFFF;
 }
 
 .container-portfolio {
@@ -21,7 +23,6 @@ left: 5628px;
 top: -3628px;
 border-radius: 0px;
 }
-
 
 :root {
     --dark-color: #2F303A;
@@ -287,6 +288,18 @@ justify-content:center;
 .flex-container-portfolio {
 justify-content:center;
 gap: 25px;
+}
+
+.advantages-description {
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+}
+
+.flex-container-advantages-description {
+display:flex;
+justify-content: center;
 }
 
 .footer {
