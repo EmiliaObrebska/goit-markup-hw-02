@@ -136,31 +136,29 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 text-decoration: none;
  }
 
- .link-header {
+ .link-header-footer {
 color:#212121;
  }
- .link-header:hover {
+
+ .link-header-footer:hover {
   color:#2196F3 ;
  }
  
- .link-footer {
-  color:#212121;
-   }
- .link-footer:focus {
+ .link-header-footer:focus {
     color:#2196F3 ;
    }
 
  .menu-nav-mail {
   /* info@devstudio.com */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-
-color: #2196F3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
  }
 
  .menu-nav-phone {
@@ -312,7 +310,6 @@ color: #FFFFFF;
 }
 
 .links-footer {
-/* +48 111 111 111 */
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
