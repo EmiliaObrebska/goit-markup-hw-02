@@ -11,9 +11,10 @@ background: #FFFFFF;
   left: 3701px;
   top: -3862px;
   border-radius: 0px;
-  margin: auto;
+  margin: 0 auto;
   padding: 15px;
   background: #FFFFFF;
+  justify-content:center;
 }
 
 .container-portfolio {
@@ -188,6 +189,7 @@ width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
+margin: 0 auto;
 }
 
 .main-text {
@@ -295,12 +297,54 @@ width: 1170px;
 height: 101px;
 left: 215px;
 top: 774px;
+margin:0 auto;
 }
 
 .flex-container-advantages-description {
-display:flex;
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+
+.tasks {
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+margin:0 auto
+}
+
+.tasks-title {
+display: flex;
 justify-content: center;
 }
+
+.flex-container-tasks {
+display: flex;
+justify-content:center;
+gap: px;
+}
+
+.team {
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+  margin:0 auto
+  }
+  
+  .team-title {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .flex-container-team {
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  }
+
+
 
 .footer {
   /* Footer bg */
